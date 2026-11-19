@@ -308,3 +308,11 @@ html{scroll-behavior:smooth}body{background:#e9f0f8;color:var(--ink);font-varian
 
 /* Claude nivel 7, icono dentro de la tarjeta personal */
 .home-personal-card.question-host{position:relative;padding:13px 44px 13px 14px!important}.home-personal-card.question-host>.ask-trigger{position:absolute!important;top:10px;right:10px;bottom:auto;margin:0}
+
+/* Claude nivel 7, guia y aviso */
+.module-guide li:nth-child(4){grid-column:1/-1}
+.module-guide li svg,.tip-icon svg{width:15px;height:15px;fill:none;stroke:#15a595;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;vertical-align:-3px;margin:0 2px}
+.tip-icon{display:inline-flex;vertical-align:middle}
+.ask-trigger.tip-target,.ask-accountant-icon.tip-target{opacity:1!important;border-color:#15a595!important;background:#effffb!important;animation:tipPulse 1.8s ease-in-out infinite}
+@keyframes tipPulse{0%,100%{box-shadow:0 0 0 0 #15a59540}50%{box-shadow:0 0 0 7px #15a59500}}
+@media(prefers-reduced-motion:reduce){.ask-trigger.tip-target{animation:none}}
