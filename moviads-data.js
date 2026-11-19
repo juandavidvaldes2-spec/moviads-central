@@ -14,6 +14,19 @@ export const MODULES=[
   ['inicio','Inicio','Resumen de la mañana'],['mi-agente','Mi agente','Preferencias de tu agente personal'],['mapa-vivo','Mapa en vivo','Unidades y anuncios en la ciudad'],['inventario','Red e inventario','Capacidad por espacio'],['programacion','Programación','Pautas y entrega'],['clientes','Clientes y campañas','Historial comercial'],['medicion','Medición y reportes','Cobertura y respuesta'],['centro-agentes','Agentes','Centro de coordinación entre áreas'],['agentes','Agentes de prospección','Leads y autonomía'],['flota','Flota y conductores','Unidades y operación'],['finanzas','Finanzas','Cobros y facturación'],['mensajes','Mensajes internos','Conversación de equipo'],['equipo','Equipo y permisos','Usuarios y acceso'],['conexiones','Conexiones','Servicios conectados']
 ];
 export const PLANS=[{id:'DOMINATION',screens:17},{id:'METRO',screens:13},{id:'PULSE',screens:9},{id:'CITY',screens:5},{id:'START',screens:3},{id:'UNIDAD',screens:1}];
+export const MONTHLY_HISTORY=[
+ {month:'2026-01',revenue:14200,spacesSold:30,plays:382000,scans:1082,expenses:11750},
+ {month:'2026-02',revenue:15100,spacesSold:32,plays:401000,scans:1140,expenses:12100},
+ {month:'2026-03',revenue:16400,spacesSold:34,plays:425000,scans:1235,expenses:12850},
+ {month:'2026-04',revenue:17150,spacesSold:36,plays:438000,scans:1298,expenses:13200},
+ {month:'2026-05',revenue:17800,spacesSold:38,plays:456000,scans:1384,expenses:13700},
+ {month:'2026-06',revenue:18350,spacesSold:39,plays:471000,scans:1450,expenses:14100},
+ {month:'2026-07',revenue:19100,spacesSold:41,plays:489000,scans:1522,expenses:14600},
+ {month:'2026-08',revenue:19800,spacesSold:42,plays:507000,scans:1610,expenses:15100},
+ {month:'2026-09',revenue:20500,spacesSold:43,plays:524000,scans:1695,expenses:15700},
+ {month:'2026-10',revenue:21200,spacesSold:44,plays:541513,scans:1744,expenses:16100},
+ {month:'2026-11',revenue:23000,spacesSold:47,plays:587000,scans:2429,expenses:15100}
+];
 export const ZONES=['Avenida Balboa','Calle 50','Obarrio','Marbella','Paitilla','Punta Pacífica','Bella Vista','El Cangrejo','San Francisco','Vía España','Vía Israel','Vía Brasil','Tumba Muerto','Condado del Rey','Albrook','Clayton','Costa del Este','Juan Díaz','Los Pueblos','San Miguelito','Villa Lucre','Brisas del Golf','Tocumen','24 de Diciembre','Las Mañanitas','Pedregal','Pacora'];
 export const CLIENTS=[
  {id:'c1',name:'Tropigas',contact:'Laura Méndez',email:'laura@tropigas.example',phone:'+507 6000-0101',stage:'Activo',plan:'PULSE',campaign:'Energía para tu ruta',period:'1 nov – 30 nov',plays:114000,target:121200,scans:418,actions:86,revenue:4200,cost:2180,zones:['Costa del Este','San Francisco','Vía España','Tocumen'],creative:'tropigas-noviembre.mp4',history:'Renovación mensual desde agosto',messages:3},
